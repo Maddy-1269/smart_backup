@@ -15,8 +15,11 @@ It supports:
 
 smart-backup/
 │
+
 ├── backup.sh # Main backup script
+
 ├── backup.config # Settings (edit this, not the script)
+
 └── backup.log # Log output (created automatically)
 
 yaml
@@ -102,6 +105,7 @@ Restore entire backup:
 
 tar -xzf backup-YYYY-MM-DD-HHMM.tar.gz -C /restore/target/folder
 Restore a single file:
+
 
 
 tar -xzf backup-YYYY-MM-DD-HHMM.tar.gz -C /restore/target/folder path/to/file
